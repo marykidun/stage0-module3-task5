@@ -4,15 +4,11 @@ public class NumberDivider {
     static void divide(int toBeDivided) {
         int divider = 5;
         int result = toBeDivided / divider;
-        System.out.println("The result of division is " + result);
+        System.out.println(result);
     }
 
     public static void main(String[] args) {
-        divide(10);
+        divide(19);
     }
+        }
 
-    {
-
-    }
-
-}

@@ -5,9 +5,9 @@ public class TimeConvertor {
     public static void convert(float minutes) {
         float seconds = minutes * 60;
 
-        System.out.println("There are " + seconds + " seconds in " + minutes + " minutes");
+        System.out.println(seconds);
     }
     public static void main(String[] args) {
-        convert(10);
+        convert(11.5F);
     }
 }
